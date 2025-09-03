@@ -1,0 +1,46 @@
+/* Backend Styling */
+
+.woo-totp-user-profile-content{
+    margin-bottom:10px;
+}
+
+.woo-totp-backend-act-card{
+    max-width:1024px; 
+    margin-top:20px; 
+    font-size:14px;
+}
+
+.woo-totp-backend-act-container{
+    display:flex; 
+    flex-wrap:wrap; 
+    gap:10px; 
+    align-items:center;
+}
+
+.woo-totp-backend-act-content{
+    display:flex; 
+    flex-direction:column;
+}
+
+.woo-totp-backend-act-content span{
+    margin-bottom:10px;
+}
+
+#admin-recovery-codes-list{
+    position:relative; 
+    max-width: 500px; 
+    background: #333;
+    color: white; 
+    padding: 15px;
+}
+
+#admin-recovery-codes-list button{
+    position: absolute; 
+    right: 0; 
+    top: 0;
+}
+
+#admin-recovery-codes-list li{
+    list-style:none; 
+    padding:2px 0;
+}

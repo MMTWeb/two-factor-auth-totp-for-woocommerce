@@ -1,0 +1,131 @@
+/* Frontend Styling */
+
+.verification-code-form{
+    padding: 10px;
+}   
+
+.woo-totp-page p{
+    font-size: 18px;
+}
+
+.woo-totp-page .woo-totp-activation{
+    display: flex;
+    flex-direction:column;
+    gap:10px;
+} 
+
+.woo-totp-page .woo-totp-deactivation form{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.woo-totp-page .woo-totp-deactivation form input {
+    margin:0;
+}
+
+.woo-totp-page form input{
+    margin-bottom:10px;
+}
+
+.woo-totp-page .woo-totp-activation form input{
+    width:30%;
+}
+
+.woo-totp-verification-code-container{
+    max-width: 400px; 
+    margin: 50px auto; 
+    font-family: sans-serif; 
+    background: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    padding: 30px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+.woo-totp-verification-code-container h2{
+    margin-bottom: 20px; 
+    font-size: 22px; 
+    text-align: center;
+}
+
+.woo-totp-verification-code-container p{
+    font-size: 15px; 
+    color: #555; 
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+.woo-totp-verification-code-container form{
+    display: flex; 
+    flex-direction: column; 
+    gap: 15px;
+}
+
+.woo-totp-verification-code-container input{
+    padding: 12px; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 6px; 
+    text-align: center; 
+    letter-spacing: 3px;
+}
+
+.woo-totp-verification-code-container button{
+   padding: 12px; 
+   font-size: 16px; 
+   background-color: #0073aa; 
+   color: #fff; 
+   border: none; 
+   border-radius: 6px; 
+   cursor: pointer; 
+}
+
+.woo-totp-notifications{
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size:18px;
+  display:flex;
+  align-items: center;
+}
+
+.woo-totp-notifications .success{
+    background-color: #dffdeb;
+    padding: 20px;
+    width: 100%;
+}
+
+.woo-totp-notifications .failed,
+.woo-totp-notifications .failure{
+    background-color: #f2dede;
+    padding: 20px;
+    width: 100%;
+}
+
+.woo-totp-recovery-codes-wrap{
+    margin: 20px 0;
+}
+
+.woo-totp-recovery-codes-wrap #recovery-codes-list{
+    background:#f8f9fa; 
+    border:1px solid #ddd; 
+    border-radius:8px; 
+    padding:15px; 
+    font-family:monospace; 
+    font-size:16px;
+    line-height:1.8;
+}
+
+.woo-totp-recovery-codes-wrap #copy-recovery-codes{
+    position:absolute; 
+    top:0; 
+    right:0;
+    font-size:12px;
+    padding:15px 15px;
+}
+
+.woo-totp-deactivation .deactivate-button{
+    background-color: red !important;
+}

@@ -1,0 +1,13 @@
+{
+    "require": {
+        "christian-riesen/otp": "^2.7",
+        "chillerlan/php-qrcode": "^2.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "WooTotpAuth\\Classes\\": "classes/",
+            "WooTotpAuth\\Src\\": "src/"
+        }
+    }
+}
